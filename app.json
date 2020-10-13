@@ -1,16 +1,16 @@
 {
-  "name": "Stripe Checkout with Rails (One File)",
-  "description": "A single-file Rails app for Stripe Checkout",
-  "repository": "https://github.com/speedshop/rails-stripe-one-file",
-  "keywords": ["ruby", "rails", "stripe"],
-  "env": {
-    "STRIPE_API_KEY": {
-      description: "Your Stripe secret key (not the publishable one!)",
-      value: "test"
-    },
-    "SECRET_KEY_BASE": {
-      description: "Rails needs one to function.",
-      value: "secret"
-    }
-  }
+	"name": "Stripe Checkout with Rails (One File)",
+	"description": "A single-file Rails app for Stripe Checkout",
+	"repository": "https://github.com/speedshop/rails-stripe-one-file",
+	"keywords": ["ruby", "rails", "stripe"],
+	"env": {
+		"STRIPE_API_KEY": {
+			"description": "Your Stripe secret key (not the publishable one!)",
+			"value": "test"
+		},
+		"SECRET_KEY_BASE": {
+			"description": "Rails needs one to function.",
+			"value": "secret"
+		}
+	}
 }
